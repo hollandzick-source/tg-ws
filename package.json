@@ -1,0 +1,16 @@
+{
+  "name": "tgws-relay",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WebSocket to TCP relay for tg-ws-proxy (MTProto DC tunnel)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
